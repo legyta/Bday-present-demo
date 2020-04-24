@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap");
+
+.laugh-section {
+  h1 {
+    font-size: 2.5rem;
+    margin: 40px 10px;
+  }
+  img {
+    width: 90%;
+    height: 90%;
+
+    margin: 15px 20px;
+    border-radius: 50%;
+  }
+
+  .button-sleep-section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .options button {
+    width: 45%;
+    height: 43px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .laugh-section {
+    h1 {
+      font-size: 2.5rem;
+      margin: 30px 0 40px 0;
+    }
+    img {
+      width: 50%;
+      height: 50%;
+      margin: 40px 1px;
+    }
+
+    .options button {
+      width: 55%;
+      height: 44px;
+      margin-bottom: 10px;
+    }
+
+    .image-options {
+      display: flex;
+      flex-direction: row;
+      margin: 0 20px;
+    }
+
+    .options {
+      margin: 200px 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .laugh-section {
+    h1 {
+      font-size: 2.5rem;
+      margin: 40px 0 80px 0;
+    }
+    .options {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 767px) {
+  .laugh-section {
+    h1 {
+      font-size: 2.5rem;
+      margin: 10px 0 40px 0;
+    }
+    img {
+      width: 40%;
+      height: 40%;
+      margin: 0 20px;
+    }
+
+    .options button {
+      width: 50%;
+      height: 44px;
+      margin-bottom: 6px;
+    }
+
+    .image-options {
+      display: flex;
+      flex-direction: row;
+      margin: 0 10px;
+    }
+
+    .options {
+      margin: 40px 40px;
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  .options button {
+    margin-bottom: 2px;
+  }
+}

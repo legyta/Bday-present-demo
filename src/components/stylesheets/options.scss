@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap");
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.options {
+  h1 {
+    font-family: "Comic Neue";
+    font-size: 3rem;
+    margin: 100px 20px 40px 20px;
+  }
+
+  button {
+    font-family: "Comic Neue";
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #b06d81;
+    text-decoration: none;
+    border-radius: 30px;
+    height: 40px;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      transition: 0.2s;
+      background: #bad7c8;
+    }
+  }
+  img {
+    width: 60%;
+    height: 60%;
+    margin: 0 0 0 65px;
+  }
+
+  .button1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px 0 0;
+  }
+  .button2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+  }
+}
+
+.options {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+  .options {
+    h1 {
+      margin: 160px 20px 40px 20px;
+    }
+    img {
+      width: 25%;
+      height: 25%;
+      margin-left: 35%;
+    }
+    button {
+      height: 45px;
+      width: 13%;
+      margin-bottom: 0;
+    }
+
+    .button1 {
+      .button-quiz {
+        margin-left: 28%;
+        margin-right: 10%;
+      }
+      .button-mel {
+        margin-left: 5%;
+        margin-right: 20%;
+      }
+    }
+
+    .button2 {
+      .button-laugh {
+        margin-left: 28%;
+        margin-right: 10%;
+      }
+      .button-look {
+        margin-left: 5%;
+        margin-right: 20%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .options {
+    img {
+      width: 50%;
+      height: 50%;
+      margin: 0 0 0 160px;
+    }
+    button {
+      height: 40px;
+      width: 25%;
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 767px) {
+  .options {
+    img {
+      width: 30%;
+      height: 30%;
+      margin: 0 0 0 220px;
+    }
+
+    button {
+      height: 40px;
+      width: 20%;
+      margin-bottom: 0;
+    }
+
+    .button1 {
+      .button-quiz {
+        margin-left: 170px;
+        margin-right: 20px;
+      }
+      .button-mel {
+        margin-left: 30px;
+        margin-right: 170px;
+      }
+    }
+
+    .button2 {
+      .button-laugh {
+        margin-left: 170px;
+        margin-right: 20px;
+      }
+      .button-look {
+        margin-left: 30px;
+        margin-right: 170px;
+      }
+    }
+  }
+
+  .options {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,33 @@
+.options .button-confetti {
+  margin-top: 590px;
+}
+
+@media screen and (min-width: 1024px) {
+  .options .button-confetti {
+    margin-top: 580px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .options .button-confetti {
+    margin-top: 830px;
+  }
+}
+
+@media screen and (min-width: 736px) and (max-width: 767px) {
+  .options .button-confetti {
+    margin-top: 280px;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 735px) {
+  .options .button-confetti {
+    margin-top: 240px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .options .button-confetti {
+    margin-top: 510px;
+  }
+}
